@@ -1,0 +1,203 @@
+﻿
+@media print {
+    .pagebreak
+
+{
+    clear: both;
+    page-break-after: always;
+}
+
+.new-bg {
+    background: url(/var/www/html/wwwroot/compdata/57B9b5oJQ72C/HTML_Templates/report-cards/Receipt.jpg) no-repeat scroll 0 0 !important;
+    background-size: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1 !important;
+}
+
+}
+
+@font-face {
+    font-family: calibri;
+    src: url(/var/www/html/wwwroot/compdata/3P0fkKvpfW8O/HTML_Templates/fonts/calibril.ttf);
+    font-weight: normal;
+    font-style: normal;
+    /*-fs-pdf-font-embed: embed;
+    -fs-pdf-font-encoding: Identity-H;*/
+}
+
+@font-face {
+    font-family: calibri-bold;
+    src: url(/var/www/html/wwwroot/compdata/3P0fkKvpfW8O/HTML_Templates/fonts/CALIBRI_0.TTF);
+    font-weight: normal;
+    font-style: normal;
+   /* -fs-pdf-font-embed: embed;
+    -fs-pdf-font-encoding: Identity-H;*/
+}
+
+@font-face {
+    font-family: calibri-bold1;
+    src: url(/var/www/html/wwwroot/compdata/3P0fkKvpfW8O/HTML_Templates/fonts/CALIBRIB_0.TTF);
+    font-weight: normal;
+    font-style: normal;
+    /*-fs-pdf-font-embed: embed;
+    -fs-pdf-font-encoding: Identity-H;*/
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0px 10px 15px;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+img, a img {
+    border: 0;
+    height: auto;
+    outline: none;
+    text-decoration: none;
+}
+
+body, #bodyTable, #bodyCell {
+    font-family: calibri-bold, Arial, sans-serif;
+    margin: 0px auto;
+    padding: 0;
+    width: 95%;
+    font-size: 16px;
+    color: #000;
+}
+
+.bgtable {
+    color: #000;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 765px 10px 15px;
+    display: table-cell;
+    border: 1px solid;
+}
+
+.bg {
+    color: #000;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fr {
+    width: 48%;
+}
+
+.sr {
+    width: 2%;
+}
+
+.tr {
+    width: 48%;
+}
+
+.third-sign,
+.second-sign,
+.first-sign {
+    font-weight: bold;
+}
+
+.blanks-space {
+    height: 450px;
+}
+
+.sign span {
+    border-top: 1px solid #000;
+    padding: 5px 15px 0 15px;
+}
+
+.center {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #000080;
+    font-size: 28px;
+}
+
+.info-text {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.infospan {
+    width: 90%;
+    position: absolute;
+    bottom: 75px;
+    text-align: right;
+    border-bottom: 1px solid #000;
+}
+
+.tbodyclass {
+    text-align: center;
+}
+
+.infospandiv {
+    width: 90%;
+    position: absolute;
+    bottom: 150px;
+    text-align: center;
+}
+
+.infospanfirst {
+    width: 90%;
+    position: absolute;
+    bottom: 95px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+#bodyTable .fix-tbl {
+    width: 95%;
+}
+
+.bg-img {
+    position: relative;
+    padding-top: 240px;
+    min-height: 1050px;
+}
+
+.new-bg {
+    background: url(/var/www/html/wwwroot/compdata/57B9b5oJQ72C/HTML_Templates/report-cards/Receipt.jpg) no-repeat scroll 0 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100%;
+    width: 100%;
+    z-index: -1 !important;
+    background-size: 100% 100% !important
+}
+
+.border-bottom {
+    border-bottom: 1px solid #000;
+}
+
+.border-bottom-bold {
+    border-bottom: 2px solid #000;
+}
+
+.border-bottom td {
+    text-align: left;
+}
